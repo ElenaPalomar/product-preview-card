@@ -1,0 +1,39 @@
+/* VARIABLES */
+:root {
+  --background: hsl(30, 38%, 92%);
+  --cardBackground: hsl(0, 0%, 100%);
+  --elements: hsl(158, 36%, 37%);
+  --title: hsl(212, 21%, 14%);
+  --text: hsl(228, 12%, 48%);
+  --links: hsl(228, 45%, 44%);
+
+  --titleFont: 'Fraunces', serif;
+  --textFont: 'Montserrat', sans-serif;
+  font-size: 62.5%;
+}
+
+/* GLOBAL */
+html {
+  font-size: 16px;
+}
+body {
+  background-color: var(--background);
+  max-height: 100vh;
+  font-family: var(--textFont);
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+/* MAIN */
+
+
+
+/* FOOTER */
+
+.attribution { 
+  height: 2rem;
+  font-size: 1.1rem;
+}
+.attribution__links {
+  color: var(--links);
+}
