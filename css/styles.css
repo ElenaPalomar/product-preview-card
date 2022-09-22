@@ -3,6 +3,7 @@
   --background: hsl(30, 38%, 92%);
   --cardBackground: hsl(0, 0%, 100%);
   --elements: hsl(158, 36%, 37%);
+  --elementsActive: hsl(156, 42%, 17%);
   --title: hsl(212, 21%, 14%);
   --text: hsl(228, 12%, 48%);
   --links: hsl(228, 45%, 44%);
@@ -96,6 +97,10 @@ body {
   justify-content: center;
   align-items: center;
   gap: 0.8em;
+  cursor: pointer;
+}
+.button:active {
+  background-color: var(--elementsActive);
 }
 
 /* FOOTER */
@@ -108,3 +113,4 @@ body {
 .attribution__links {
   color: var(--links);
 }
+
